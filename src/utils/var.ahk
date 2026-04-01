@@ -226,6 +226,7 @@ for v in cursorInfo {
     }
 }
 
+app_IgnoreHotKey := StrSplit(readIniSection("App-IgnoreHotKey"), "`n")
 app_HideSymbol := StrSplit(readIniSection("App-HideSymbol"), "`n")
 app_ShowSymbol := StrSplit(readIniSection("App-ShowSymbol"), "`n")
 app_AutoExit := StrSplit(readIniSection("App-Auto-Exit"), "`n")
