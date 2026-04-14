@@ -28,8 +28,6 @@ gc := {
     }
 }
 
-userName := readIni("userName", A_UserName, "UserInfo")
-
 ; 输入法模式
 mode := readIni("mode", 1, "InputMethod")
 
